@@ -74,3 +74,4 @@ D:\1-arquivos\1-ETEC-DS\2DS\ds\EventoApi\obj\Release\net7.0\refint\EventoApi.dll
 D:\1-arquivos\1-ETEC-DS\2DS\ds\EventoApi\obj\Release\net7.0\EventoApi.pdb
 D:\1-arquivos\1-ETEC-DS\2DS\ds\EventoApi\obj\Release\net7.0\EventoApi.genruntimeconfig.cache
 D:\1-arquivos\1-ETEC-DS\2DS\ds\EventoApi\obj\Release\net7.0\ref\EventoApi.dll
+D:\1-arquivos\1-ETEC-DS\2DS\ds\EventoApi\obj\Release\net7.0\EventoApi.sourcelink.json

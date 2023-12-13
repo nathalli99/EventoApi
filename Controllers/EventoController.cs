@@ -8,7 +8,7 @@ using EventoApi.Data;
 namespace EventoApi.Controllers
 {
     [ApiController]
-    [Route("controller")]
+    [Route("eventos")]
     
     public class EventoController : ControllerBase
     {
