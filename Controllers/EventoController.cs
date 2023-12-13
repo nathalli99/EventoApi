@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using EventoApi.Models;
 using EventoApi.Models.Enuns;
+using EventoApi.Data;
 
 namespace EventoApi.Controllers
 {
@@ -11,6 +12,12 @@ namespace EventoApi.Controllers
     
     public class EventoController : ControllerBase
     {
+        
+        private readonly DataContext _context;
+        public EventoController(DataContext context)
+        {
+            _context = context;
+        }
         private static List<Evento> eventos = new List<Evento>()
         {
             new Evento() { Id = 1, Nome = "Neo City: The Link Tour", Data = new DateTime(2023, 01, 18), Local = "São Paulo, Vibra", Artista = "NCT 127", Classe = EventoEnum.Show },
